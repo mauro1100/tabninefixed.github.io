@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer's Paradise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e2e;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        header a:hover {
+            color: #ffc107;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: #282c34;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .product-card h2 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .product-card p {
+            color: #999;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        form input[type="text"],
+        form input[type="email"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #343a40;
+            color: white;
+        }
+
+        form input[type="submit"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #ffc107;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </header>
+
+    <main>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product 3">
+            <h2>Product 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Gamer's Paradise. All rights reserved.</p>
+    </footer>
+
+    <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
